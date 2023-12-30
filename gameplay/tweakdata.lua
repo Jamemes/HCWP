@@ -124,6 +124,7 @@ if tweak_data.is_easy then
 end
 
 if tweak_data.is_helvete then
+	tweak_data.difficulty_name_id = tweak_data.difficulty_name_ids.helvete
 	tweak_data.experience_manager.civilians_killed = 20000
 	tweak_data.experience_manager.total_level_objectives = 10000
 	tweak_data.experience_manager.total_criminals_finished = 4000
