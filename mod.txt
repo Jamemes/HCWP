@@ -2,7 +2,7 @@
     "name" : "Helvete",
     "description" : "",
     "author" : "James",
-    "version" : "1",
+    "version" : "2",
     "priority" : 1,
     "hooks":[
 
@@ -24,6 +24,7 @@
 		{"hook_id": "lib/managers/gameplaycentralmanager",					"script_path": "gameplay/gameplaycentralmanager.lua"},
 		{"hook_id": "lib/units/props/drill",								"script_path": "gameplay/drill.lua"},
 		{"hook_id": "lib/units/props/timergui",								"script_path": "gameplay/timergui.lua"},
+		{"hook_id": "lib/managers/mission/elementpointofnoreturn",			"script_path": "gameplay/elementpointofnoreturn.lua"},
 		
         {"hook_id": "lib/managers/crimenetmanager",							"script_path": "gui/crimenetmanager.lua"},
 		{"hook_id": "lib/managers/menu/crimenetcontractgui",				"script_path": "gui/crimenetcontractgui.lua"},
